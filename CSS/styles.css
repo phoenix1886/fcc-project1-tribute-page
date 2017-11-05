@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+.navbar a {
+    font-size: 1.45em;
+}
+
+.bg-dark {
+    background: red;
+}
+
+.nav-item {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.main-content{
+    margin: 1em 5em;
+}
+
+.portrait{
+    width: 100%;
+}
+
+p, li {
+    font-size: 1.25em;
+}
+
+li ~ li {
+    margin-top: 0.6em;
+}
+
+h1 ~ p {
+    margin-bottom: 2em;
+}
+figure {
+    width: 25%;
+}
+
+figcaption, .card p {
+    font-size: 0.9em;
+    /*padding-right: 1.5em;*/
+}
+
+a {
+    color: #339;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #111;
+}
+
+.card {
+    max-width: 100%;
+    margin: 2em auto;
+
+}
